@@ -33,7 +33,8 @@ body{
 
 }
 .table-content{
-    margin-left: 115px;
+    margin-left: 200px;
+    
 }
 .forgotten{
     color: #ffffff;
@@ -42,10 +43,11 @@ body{
 }
 .submit-but{
     background: #4267b2;
-    border-color: #25488f;
+    border-color: #29487d;
     color: #ffffff;
     height: 20px;
     cursor: pointer;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .submit-but:hover{
     border-color: #0a50dd ;
@@ -53,8 +55,18 @@ body{
 .left-section{
     width: 50%;
     float: left;
+    padding-left: 143px;
+    padding-top: 52px;
 }
 .right-section{
     width: 50%;
     float: left;
+}
+.body{
+    background: linear-gradient(white, #D3D8E8);
+    width: 100%;
+    height: 500px;
+}
+.img{
+    width: 581px;
 }
